@@ -11,7 +11,7 @@ Features :
   - a catch/release button to remember which pokemon you caught.
   - a photo of the pokemon.
   
- *The debug-apk file is the output .apk file.*
+ *The app-debug file is the output .apk file.*
 
 Hope you like it!!!
 
