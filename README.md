@@ -10,6 +10,8 @@ Features :
   - a search button
   - a catch/release button to remember which pokemon you caught.
   - a photo of the pokemon.
+  
+ *The debug-apk file is the output .apk file.*
 
 Hope you like it!!!
 
