@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonActivity">
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/pokemon_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/pokemon_type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/pokemon_type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4296D8"
+        android:onClick="toggleCatch"
+        android:text="Catch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pokeimage"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:textAlignment="center" />
+
+</LinearLayout>
